@@ -5,7 +5,7 @@
 }
 
 html {
-    font-size: 6px;
+    font-size: 10px;
 }
 
 /* body */
@@ -22,26 +22,25 @@ body {
 nav {
     width: 100%; /* for position fixed */
     font-family: 'Montserrat Alternates', sans-serif;
-    background-color: #000000;
+    background-color: #02010a;
     color: #fff;
     padding-top: 1.5rem; /* (6px * 2) */
     padding-bottom: 1rem;
     position: fixed;
-    z-index: 500;
 }
 
 .top-section {
     width: 100%; /* for responsive */
     margin-left: auto;
     margin-right: auto;
-    padding-left: 0.5rem; 
-    padding-right: 0.5rem; 
 }
 
 #logo-box .logo {
     color: #e21221;
     font-weight: 700;
-    font-size: 4rem;
+    font-size: 4.2rem;
+    letter-spacing: 0.2rem;
+
 }
 
 .text-uppercase {
@@ -79,7 +78,7 @@ a {
     font-size: 16px;
     font-weight: 700;
     display: block;
-    padding-top: 2rem;
+    padding-top: 3.5rem;
     letter-spacing: 0.1rem;
     transition: color 0.4s; 
 
@@ -93,83 +92,125 @@ ul {
     color: #a60b18;
 }
 
+/* Header */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Responsive tasarım */
-
-@media (min-width: 576px) {
-    /* mobile */
-
-    .top-section {
-        max-width: 540px; /* max genişlik oalrak alabileceği değer */
-    }
-
-    html {
-        font-size: 7px;
-    }
-
+header {
+    background-color: #04052e;
+    height: 600px;
+    padding-top: calc(100.97px + 4rem); 
 }
 
-@media (min-width: 768px) {
-
-    .top-section {
-        max-width: 720px;
-    } 
-    
-    html {
-        font-size: 8px;
-    }
-
-    .col {
-        width: 50%;
-    }
-    
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-@media (min-width: 992px) {
-    
-    /* tablet */
-
-    .top-section {
-        max-width: 960px;
-    }
-
-    html {
-        font-size: 9px;
-    }
-
-    .col {
-        width: 33.333%;
-    }
-
+header h1 {
+    color: #fff;
+    font-size: 6rem;
 }
+
+header h2 {
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+
+.img-main{
+    width: 270px;
+    height: 400px;
+    float: right;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.episode{
+    overflow: auto;
+}
+
+/* card */
+.card {
+    --background: linear-gradient(to left, #0d00a4 0%, #22007c 100%);
+    width: 900px;
+    height: 400px;
+    padding: 3px;
+    border-radius: 1.5rem;
+    overflow: visible;
+    background: #0d00a4;
+    background: var(--background);
+    position: relative;
+    z-index: 1;
+   }
+   
+.card::after {
+position: absolute;
+content: "";
+top: 30px;
+left: 0;
+right: 0;
+z-index: -1;
+height: 100%;
+width: 100%;
+transform: scale(0.8);
+filter: blur(100px);
+background: #0d00a4;
+background: var(--background);
+transition: opacity .5s;
+}
+
+.card-info {
+--color: #04052e;
+background: var(--color);
+color: var(--color);
+display: inline-block;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+overflow: visible;
+border-radius: 1rem;
+padding: 3rem;
+}
+
+.card .h1{
+    color: #fff;
+    font-size: 6rem;
+}
+
+.card .paragraph {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    letter-spacing: 1px; /* harfler arası */
+    word-spacing: 2.5px; /* kelimeler arası boşluk */
+    line-height: 150%; /* satırlar arası boşluk */
+    color: #fff;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+/*Hover*/
+.card:hover::after {
+opacity: 0;
+}
+
+.card:hover .card-info {
+color: #0d00a4;
+transition: color 1s;
+}
+   
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 1200px) {
-
     /* web */
-
     .top-section {
-        max-width: 1140px;
-    }
-    
-    html {
-        font-size: 10px;
+        max-width: 1300px;
     }
 }

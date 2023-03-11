@@ -14,7 +14,7 @@ body {
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.5;
-    background-color: #fff;
+    background-color: #04052e;
 }
 
 /* Navbar*/
@@ -23,7 +23,7 @@ nav {
     width: 100%; /* for position fixed */
     height: auto;
     font-family: 'Montserrat Alternates', sans-serif;
-    background-color: #000000;
+    background-color: #02010a;
     color: #fff;
     padding-top: 0.5rem;
     padding-bottom: 0.25rem;
