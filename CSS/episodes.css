@@ -1,3 +1,177 @@
-body{
-    background-color: black;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 6px;
+}
+
+/* body */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #fff;
+}
+
+/* Navbar*/
+
+nav {
+    width: 100%; /* for position fixed */
+    height: auto;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #000000;
+    color: #fff;
+    padding-top: 0.5rem;
+    padding-bottom: 0.25rem;
+    position: fixed;
+    z-index: 500;
+}
+
+.top-section {
+    width: 100%; /* for responsive */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#logo-box .logo {
+    color: #e21221;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.text-uppercase {
+    text-transform: uppercase; 
+}
+
+/* to remove the line under the links */
+a {
+    text-decoration: none;
+}
+
+#nav-links { 
+    float: right;
+    margin-right: -7rem;
+}
+
+#logo-box {
+    float: left; /* logo is right */
+    padding: 0.1rem; 
+    margin-left: -7rem;
+}
+
+/* for the compatibility of the link and logo parts with each other */
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#link-box .nav-item {
+    float: left; /* link is left */
+    margin-left: 7rem;
+}
+
+
+#link-box .nav-link{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+    padding-top: 1rem;
+    letter-spacing: 0.1rem;
+    transition: color 0.4s; 
+}
+
+ul {
+    list-style-type: none;
+}
+
+#link-box .nav-link:hover{
+    color: #a60b18;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive tasarım */
+
+@media (min-width: 576px) {
+    /* mobile */
+
+    .top-section {
+        max-width: 540px; /* max genişlik oalrak alabileceği değer */
+    }
+
+    html {
+        font-size: 7px;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .top-section {
+        max-width: 720px;
+    } 
+    
+    html {
+        font-size: 8px;
+    }
+
+    .col {
+        width: 50%;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    
+    /* tablet */
+
+    .top-section {
+        max-width: 960px;
+    }
+
+    html {
+        font-size: 9px;
+    }
+
+    .col {
+        width: 33.333%;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    /* web */
+
+    .top-section {
+        max-width: 1140px;
+    }
+    
+    html {
+        font-size: 10px;
+    }
 }
