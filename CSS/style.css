@@ -28,6 +28,7 @@ nav {
   padding-top: 1.5rem; /* (6px * 2) */
   padding-bottom: 1rem;
   position: fixed;
+  z-index: 500; /* nav barı tüm öğelerin üstünde tutacak */
 }
 
 .top-section {
@@ -99,14 +100,18 @@ ul {
   padding-top: calc(100.97px + 4rem);
 }
 
-#episodes{
+#episodes {
   background-color: #04052e;
   height: auto;
-  margin-bottom: 5rem; /* değişecek */
   padding-top: calc(100.97px + 4rem);
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 700;
   font-family: "Times New Roman", Times, serif;
 }
@@ -131,23 +136,23 @@ header h2 {
 }
 
 .img-main-left {
-    width: 270px;
-    height: 400px;
-    float: left;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-
-.frame-left{
-    float: left;
-    margin-left: 50px;
-    margin-right: 50px;
+  width: 270px;
+  height: 400px;
+  float: left;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
-.frame-right{
-    float: right;
-    margin-left: 50px;
-    margin-right: 50px;
+.frame-left {
+  float: left;
+  margin-left: 2.5rem;
+  margin-right: 5rem;
+}
+
+.frame-right {
+  float: right;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .episode {
@@ -228,60 +233,178 @@ header h2 {
 
 /* yıldız kısmı */
 hr.line {
-    border-color: #fff;
+  border-color: #fff;
 }
-hr.big-line{
-    border-color: #a60b18;
-}
-
-.line-left{
-    border: none; /* border'ın sadece üst  kısmını kullanmak için bunu kapatıp ..*/
-    border-top: 0.1rem solid; /* bunu açacağız */
-    border-radius: 10px;
-    margin: 0 60rem 0 0;
-    overflow: visible; /* görünür yapmamız lazım */
-}
-.line-right{
-    border: none; /* border'ın sadece üst  kısmını kullanmak için bunu kapatıp ..*/
-    border-top: 0.1rem solid; /* bunu açacağız */
-    border-radius: 10px;
-    margin: 0 3rem 0 60rem;
-    overflow: visible; /* görünür yapmamız lazım */
+hr.big-line {
+  border-color: #a60b18;
 }
 
-.big-line{
-    border: none; /* border'ın sadece üst  kısmını kullanmak için bunu kapatıp ..*/
-    border-top: 0.1rem solid; /* bunu açacağız */
-    border-radius: 1rem;
-    margin-right: 3rem;
-    overflow: visible; /* görünür yapmamız lazım */
+.line-left {
+  border: none; /* border'ın sadece üst  kısmını kullanmak için bunu kapatıp ..*/
+  border-top: 0.1rem solid; /* bunu açacağız */
+  border-radius: 10px;
+  margin: 0 60rem 0 0;
+  overflow: visible; /* görünür yapmamız lazım */
+}
+.line-right {
+  border: none; /* border'ın sadece üst  kısmını kullanmak için bunu kapatıp ..*/
+  border-top: 0.1rem solid; /* bunu açacağız */
+  border-radius: 10px;
+  margin: 0 3rem 0 60rem;
+  overflow: visible; /* görünür yapmamız lazım */
 }
 
-.BM-logo{
-    height: 335px;
-}
-.episode-link{
-    color: #fff;
-    font-size: 2rem;
-    letter-spacing: 0.1rem;
-    transition: color 0.4s;
-}
-.episode-link:hover
-{
-    color: #a60b18;
-    font-size: 2.5rem;
-    transition: color 0.4s;
-}
-.ul-link{
-    list-style-type:decimal;
-}
-.ul-link-right{
-    list-style-type: decimal;
-    text-align: right; 
-    margin-right: 3rem;
-    list-style-position:inside;
+.big-line {
+  border: none; /* border'ın sadece üst  kısmını kullanmak için bunu kapatıp ..*/
+  border-top: 0.1rem solid; /* bunu açacağız */
+  border-radius: 1rem;
+  margin-right: 3rem;
+  overflow: visible; /* görünür yapmamız lazım */
 }
 
+.BM-logo {
+  height: 335px;
+}
+.episode-link {
+  color: #fff;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  transition: color 0.4s;
+}
+.episode-link:hover {
+  color: #a60b18;
+  font-size: 2.5rem;
+  transition: color 0.4s;
+}
+.ul-link {
+  list-style-type: decimal;
+}
+.ul-link-right {
+  list-style-type: decimal;
+  text-align: right;
+  margin-right: 3rem;
+  list-style-position: inside;
+}
+
+.e-link {
+  margin-left: 3rem;
+}
+
+/* Footer */
+
+footer {
+  padding-top: 3rem; /* üsstten boşluk */
+  padding-bottom: 1rem; /* alttan boşluk */
+  background-color: #22007c;
+  color: #fff;
+  text-align: center;
+}
+
+.col {
+  float: left;
+  width: 33.3%;
+  padding: 1rem;
+  display: inline;
+}
+
+footer li {
+  display: block; /* yan yana gelmeleri için */
+  margin-right: 1rem; /* aralarındaki boşluk */
+}
+
+footer h4 {
+  font-size: 2.4rem;
+}
+
+/* footer button */
+
+.footer-button {
+  cursor: pointer;
+  margin: 0.5rem;
+  width: 50%;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-radius: 3rem;
+  border: 0.1rem solid white;
+  background-color: transparent;
+}
+
+#github:hover {
+  background-color: #000;
+  border-color: #000;
+}
+
+#linkedln:hover {
+  background-color: #5ab0f7;
+  border-color: #5ab0f7;
+}
+
+#instagram:hover {
+  background-color: #f103ba;
+  border-color: #f103ba;
+}
+
+#books:hover {
+  background-color: #be0000;
+  border-color: #be0000;
+}
+
+#twitter:hover {
+  background-color: #1e54a6;
+  border-color: #1e54a6;
+}
+.button-link {
+  float: right;
+  color: #fff;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  margin: 1rem 2rem;
+}
+.social-logo {
+  float: left;
+  margin: 0.3rem 1rem;
+}
+.social-logo-book {
+  float: left;
+  margin: 0.7rem 1.2rem;
+}
+
+.continue {
+  cursor: pointer;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  transition: all 0.2s;
+  padding: 10px 20px;
+  margin-left: 9rem;
+  border-radius: 100px;
+  background: #000;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+}
+
+.continue:hover {
+  background: #a60b18;
+}
+
+.continue > img {
+  width: 34px;
+  margin-left: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.continue:hover svg {
+  transform: translateX(5px);
+}
+
+.continue:active {
+  transform: scale(0.95);
+}
+#mail {
+  font-size: 2.5rem;
+  color: #be0000;
+}
 
 
 
@@ -297,6 +420,20 @@ hr.big-line{
 
 
 
+
+
+
+
+
+
+
+.copyright {
+  background-color: #140152;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  color: #fff;
+  text-align: center;
+}
 
 @media (min-width: 1200px) {
   /* web */

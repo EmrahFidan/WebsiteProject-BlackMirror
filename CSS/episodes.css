@@ -1,98 +1,96 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 6px;
+  font-size: 6px;
 }
 
 /* body */
 body {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.6rem;
-    font-weight: 400;
-    line-height: 1.5;
-    background-color: #04052e;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #04052e;
 }
 
 /* Navbar*/
 
 nav {
-    width: 100%; /* for position fixed */
-    height: auto;
-    font-family: 'Montserrat Alternates', sans-serif;
-    background-color: #02010a;
-    color: #fff;
-    padding-top: 0.5rem;
-    padding-bottom: 0.25rem;
-    position: fixed;
-    z-index: 500;
+  width: 100%; /* for position fixed */
+  height: auto;
+  font-family: "Montserrat Alternates", sans-serif;
+  background-color: #02010a;
+  color: #fff;
+  padding-top: 0.5rem;
+  padding-bottom: 0.25rem;
+  position: fixed;
+  z-index: 500;
 }
 
 .top-section {
-    width: 100%; /* for responsive */
-    margin-left: auto;
-    margin-right: auto;
+  width: 100%; /* for responsive */
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
 #logo-box .logo {
-    color: #e21221;
-    font-weight: 700;
-    font-size: 2.5rem;
+  color: #e21221;
+  font-weight: 700;
+  font-size: 2.5rem;
 }
 
 .text-uppercase {
-    text-transform: uppercase; 
+  text-transform: uppercase;
 }
 
 /* to remove the line under the links */
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-#nav-links { 
-    float: right;
-    margin-right: -7rem;
+#nav-links {
+  float: right;
+  margin-right: -7rem;
 }
 
 #logo-box {
-    float: left; /* logo is right */
-    padding: 0.1rem; 
-    margin-left: -7rem;
+  float: left; /* logo is right */
+  padding: 0.1rem;
+  margin-left: -7rem;
 }
 
 /* for the compatibility of the link and logo parts with each other */
 .clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
+  content: "";
+  display: block;
+  clear: both;
 }
 
 #link-box .nav-item {
-    float: left; /* link is left */
-    margin-left: 7rem;
+  float: left; /* link is left */
+  margin-left: 7rem;
 }
 
-
-#link-box .nav-link{
-    color: #fff;
-    font-size: 16px;
-    font-weight: 400;
-    display: block;
-    padding-top: 1rem;
-    letter-spacing: 0.1rem;
-    transition: color 0.4s; 
+#link-box .nav-link {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  display: block;
+  padding-top: 1rem;
+  letter-spacing: 0.1rem;
+  transition: color 0.4s;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
-#link-box .nav-link:hover{
-    color: #a60b18;
+#link-box .nav-link:hover {
+  color: #a60b18;
 }
 
 
@@ -113,65 +111,72 @@ ul {
 
 
 
+
+
+
+
+
+
+.copyright {
+  background-color: #140152;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  color: #fff;
+  text-align: center;
+}
 
 /* Responsive tasarım */
 
 @media (min-width: 576px) {
-    /* mobile */
+  /* mobile */
 
-    .top-section {
-        max-width: 540px; /* max genişlik oalrak alabileceği değer */
-    }
+  .top-section {
+    max-width: 540px; /* max genişlik oalrak alabileceği değer */
+  }
 
-    html {
-        font-size: 7px;
-    }
-
+  html {
+    font-size: 7px;
+  }
 }
 
 @media (min-width: 768px) {
+  .top-section {
+    max-width: 720px;
+  }
 
-    .top-section {
-        max-width: 720px;
-    } 
-    
-    html {
-        font-size: 8px;
-    }
+  html {
+    font-size: 8px;
+  }
 
-    .col {
-        width: 50%;
-    }
-    
+  .col {
+    width: 50%;
+  }
 }
 
 @media (min-width: 992px) {
-    
-    /* tablet */
+  /* tablet */
 
-    .top-section {
-        max-width: 960px;
-    }
+  .top-section {
+    max-width: 960px;
+  }
 
-    html {
-        font-size: 9px;
-    }
+  html {
+    font-size: 9px;
+  }
 
-    .col {
-        width: 33.333%;
-    }
-
+  .col {
+    width: 33.333%;
+  }
 }
 
 @media (min-width: 1200px) {
+  /* web */
 
-    /* web */
+  .top-section {
+    max-width: 1140px;
+  }
 
-    .top-section {
-        max-width: 1140px;
-    }
-    
-    html {
-        font-size: 10px;
-    }
+  html {
+    font-size: 10px;
+  }
 }
