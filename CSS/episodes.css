@@ -93,6 +93,55 @@ ul {
   color: #a60b18;
 }
 
+/* contact */
+
+#contact {
+  background-color: #140152;
+  height: auto;
+  padding-top: 125px;
+  padding-bottom: 75px;
+}
+
+.contact-box{
+  height: auto;
+  margin-bottom: 75px;
+  height: 210px;
+}
+.text-box{
+  height: auto;
+  margin-bottom: 75px;
+  height: auto;
+}
+.img-double{
+  float: inline-start;
+   height: 210px;
+   width: 350px;
+   margin-left: 150px;
+}
+
+.img-right{
+   float:right;
+   margin-left: 50px;
+   height: 210px;
+   width: 350px;
+}
+
+.img-left{
+  float: left;
+  margin-right: 50px;
+  height: 210px;
+   width: 350px;
+}
+.text{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: justify;
+  font-style: italic;
+}
+
+
+
 
 
 
@@ -118,7 +167,7 @@ ul {
 
 
 .copyright {
-  background-color: #140152;
+  background-color: #04052e;
   padding-top: 1.2rem;
   padding-bottom: 1.2rem;
   color: #fff;
