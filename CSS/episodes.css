@@ -103,15 +103,30 @@ ul {
 }
 
 .contact-box{
-  height: auto;
   margin-bottom: 75px;
   height: 210px;
 }
 .text-box{
-  height: auto;
   margin-bottom: 75px;
   height: auto;
 }
+.poster-box{
+  height: 330px;
+  border: 2px solid #a60b18;
+  border-radius: 50px;
+  padding: 20px 30px;
+  margin-top: 50px;
+}
+.img-poster-left{
+  float:left;
+  margin-right: 100px;
+}
+
+.img-poster-right{
+  float:right;
+   margin-left: 100px;
+}
+
 .img-double{
   float: inline-start;
    height: 210px;
@@ -134,11 +149,105 @@ ul {
 }
 .text{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   color: white;
   text-align: justify;
   font-style: italic;
 }
+.link-page-end{
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 18px;
+  float: right;
+  color: #e21221;
+}
+
+/* form */
+
+.big-fieldset{
+  padding: 5px 15px;
+}
+.short-fieldset{
+  padding: 3px 9px;
+}
+
+.big-legend{
+  color: #e21221;
+  font-size: 20px;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.short-legend{
+  color: white;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.input1 {
+  color: white;
+  font-size: 18px;
+ }
+
+ .name-input{
+  background-color: transparent;
+  border: 1px solid white;
+  height: 2.2rem;
+  color: white;
+  text-align: center;
+ }
+
+ .name-input::after{
+  background-color: transparent;
+  border: 1px solid white;
+  height: 2.2rem;
+  color: white;
+  text-align: center;
+ }
+
+ .radio-feel{
+  color: white;
+  margin-right: 0.2rem;
+ }
+ .radio{
+  color: white;
+  font-size: 14px;
+  margin-right: 1.5rem;
+ }
+
+ .selection-input{
+  background-color: white;
+  height: 2.5rem;
+ }
+
+ .send{
+  float: right;
+  padding: 8px 20px;
+  background-color:transparent;
+  border: 1px solid #e21221;
+  font-size: 14px;
+  border-radius: 20px;
+  color: white;
+  }
+.send:hover{
+    background-color: #e21221;
+    color: white;
+}
+
+.radio-right{
+  color: white;
+  font-size: 16px;
+  float: right;
+  margin-right: 2.5rem;
+ }
+ .check-button{
+  float:right;
+  margin-right: 1rem;
+  height: 2.2rem;
+ }
+
+
+
+
+ 
 
 
 
