@@ -412,11 +412,55 @@ footer h4 {
 #contact {
   background-color: #140152;
   height: auto;
-  padding-top: 5rem;
+  padding-top: 125px;
+  padding-bottom: 75px;
 }
 
 .contact-box{
-  height: 500px;
+  height: 350px; /* resime göre değişmeli */
+  margin: auto 30px;
+}
+.text-box{
+  margin-bottom: 75px;
+  height: auto;
+  margin: auto 30px;
+}
+
+.img-right{
+  float:right;
+  margin-left: 50px;
+  height: 210px;
+  width: 350px;
+}
+
+.link-page-end{
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 16px;
+  float: left;
+  color: #e21221;
+  margin-left: 6rem;
+}
+
+.text{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: white;
+  text-align: justify;
+  font-style: italic;
+}
+
+.text2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: white;
+  text-align: justify;
+  font-style: italic;
+}
+
+
+/* ilk harf */ 
+.text2::first-letter{
+  font-size: 40px;
 }
 
 

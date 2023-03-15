@@ -154,6 +154,17 @@ ul {
   text-align: justify;
   font-style: italic;
 }
+.text2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: white;
+  text-align: justify;
+  font-style: italic;
+}
+/* ilk harf */ 
+.text2::first-letter{
+  font-size: 32px;
+}
 .link-page-end{
   font-family: "Montserrat Alternates", sans-serif;
   font-size: 18px;
