@@ -153,6 +153,8 @@ ul {
   color: white;
   text-align: justify;
   font-style: italic;
+  text-indent: 30px;
+  word-spacing: 1.2px;
 }
 .text2{
   font-family: 'Times New Roman', Times, serif;
@@ -160,6 +162,8 @@ ul {
   color: white;
   text-align: justify;
   font-style: italic;
+  text-indent: 30px;
+  word-spacing: 1.2px;
 }
 /* ilk harf */ 
 .text2::first-letter{

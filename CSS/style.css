@@ -412,13 +412,13 @@ footer h4 {
 #contact {
   background-color: #140152;
   height: auto;
-  padding-top: 125px;
+  padding-top: 75px;
   padding-bottom: 75px;
 }
 
 .contact-box{
-  height: 350px; /* resime göre değişmeli */
-  margin: auto 30px;
+  height: 300px;
+  margin: 40px 30px 0px 30px;
 }
 .text-box{
   margin-bottom: 75px;
@@ -427,10 +427,10 @@ footer h4 {
 }
 
 .img-right{
+  height: 245px;
+  width: 408px;
   float:right;
   margin-left: 50px;
-  height: 210px;
-  width: 350px;
 }
 
 .link-page-end{
@@ -445,18 +445,20 @@ footer h4 {
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
   color: white;
-  text-align: justify;
+  text-align: left;
   font-style: italic;
+  text-indent: 30px;
+  word-spacing: 1px;
 }
 
 .text2{
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
   color: white;
-  text-align: justify;
-  font-style: italic;
+  text-align: left;
+  text-indent: 30px;
+  word-spacing: 1px;
 }
-
 
 /* ilk harf */ 
 .text2::first-letter{
