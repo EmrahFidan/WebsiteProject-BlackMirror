@@ -25,10 +25,10 @@ nav {
   font-family: "Montserrat Alternates", sans-serif;
   background-color: #02010a;
   color: #fff;
-  padding-top: 1.5rem; /* (6px * 2) */
+  padding-top: 1.5rem;
   padding-bottom: 1rem;
   position: fixed;
-  z-index: 500; /* nav barı tüm öğelerin üstünde tutacak */
+  z-index: 500;
 }
 
 .top-section {
@@ -58,7 +58,7 @@ a {
 }
 
 #logo-box {
-  float: right; /* logo is right */
+  float: right;
   padding-top: 0.5rem;
 }
 
@@ -70,7 +70,7 @@ a {
 }
 
 #nav-links .nav-item {
-  float: left; /* link is left */
+  float: left;
   margin-left: 5rem;
 }
 
@@ -212,15 +212,16 @@ header h2 {
 .card .paragraph {
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
-  letter-spacing: 1px; /* harfler arası */
-  word-spacing: 2.5px; /* kelimeler arası boşluk */
-  line-height: 150%; /* satırlar arası boşluk */
+  letter-spacing: 1px;
+  word-spacing: 2.5px;
+  line-height: 150%;
   color: #fff;
   text-align: justify;
   text-indent: 30px;
 }
 
 /*Hover*/
+
 .card:hover::after {
   opacity: 0;
 }
@@ -232,7 +233,8 @@ header h2 {
 
 /* episodes */
 
-/* yıldız kısmı */
+/* line */
+
 hr.line {
   border-color: #fff;
 }
@@ -241,26 +243,26 @@ hr.big-line {
 }
 
 .line-left {
-  border: none; /* border'ın sadece üst  kısmını kullanmak için bunu kapatıp ..*/
-  border-top: 0.1rem solid; /* bunu açacağız */
+  border: none;
+  border-top: 0.1rem solid;
   border-radius: 10px;
   margin: 0 60rem 0 0;
-  overflow: visible; /* görünür yapmamız lazım */
+  overflow: visible;
 }
 .line-right {
-  border: none; /* border'ın sadece üst  kısmını kullanmak için bunu kapatıp ..*/
-  border-top: 0.1rem solid; /* bunu açacağız */
+  border: none;
+  border-top: 0.1rem solid;
   border-radius: 10px;
   margin: 0 3rem 0 60rem;
-  overflow: visible; /* görünür yapmamız lazım */
+  overflow: visible;
 }
 
 .big-line {
-  border: none; /* border'ın sadece üst  kısmını kullanmak için bunu kapatıp ..*/
-  border-top: 0.1rem solid; /* bunu açacağız */
+  border: none;
+  border-top: 0.1rem solid;
   border-radius: 1rem;
   margin-right: 3rem;
-  overflow: visible; /* görünür yapmamız lazım */
+  overflow: visible;
 }
 
 .BM-logo {
@@ -294,8 +296,8 @@ hr.big-line {
 /* Footer */
 
 footer {
-  padding-top: 3rem; /* üsstten boşluk */
-  padding-bottom: 1rem; /* alttan boşluk */
+  padding-top: 3rem;
+  padding-bottom: 1rem;
   background-color: #22007c;
   color: #fff;
   text-align: center;
@@ -309,8 +311,8 @@ footer {
 }
 
 footer li {
-  display: block; /* yan yana gelmeleri için */
-  margin-right: 1rem; /* aralarındaki boşluk */
+  display: block;
+  margin-right: 1rem;
 }
 
 footer h4 {
@@ -416,24 +418,24 @@ footer h4 {
   padding-bottom: 75px;
 }
 
-.contact-box{
+.contact-box {
   height: 300px;
   margin: 40px 30px 0px 30px;
 }
-.text-box{
+.text-box {
   margin-bottom: 75px;
   height: auto;
   margin: auto 30px;
 }
 
-.img-right{
+.img-right {
   height: 245px;
   width: 408px;
-  float:right;
+  float: right;
   margin-left: 50px;
 }
 
-.link-page-end{
+.link-page-end {
   font-family: "Montserrat Alternates", sans-serif;
   font-size: 16px;
   float: left;
@@ -441,8 +443,8 @@ footer h4 {
   margin-left: 6rem;
 }
 
-.text{
-  font-family: 'Times New Roman', Times, serif;
+.text {
+  font-family: "Times New Roman", Times, serif;
   font-size: 20px;
   color: white;
   text-align: left;
@@ -451,8 +453,8 @@ footer h4 {
   word-spacing: 1px;
 }
 
-.text2{
-  font-family: 'Times New Roman', Times, serif;
+.text2 {
+  font-family: "Times New Roman", Times, serif;
   font-size: 20px;
   color: white;
   text-align: left;
@@ -460,33 +462,9 @@ footer h4 {
   word-spacing: 1px;
 }
 
-/* ilk harf */ 
-.text2::first-letter{
+.text2::first-letter {
   font-size: 40px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .copyright {
   background-color: #140152;

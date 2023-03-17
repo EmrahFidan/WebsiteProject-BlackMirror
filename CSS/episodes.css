@@ -20,7 +20,7 @@ body {
 /* Navbar*/
 
 nav {
-  width: 100%; /* for position fixed */
+  width: 100%;
   height: auto;
   font-family: "Montserrat Alternates", sans-serif;
   background-color: #02010a;
@@ -58,7 +58,7 @@ a {
 }
 
 #logo-box {
-  float: left; /* logo is right */
+  float: left;
   padding: 0.1rem;
   margin-left: -7rem;
 }
@@ -71,7 +71,7 @@ a {
 }
 
 #link-box .nav-item {
-  float: left; /* link is left */
+  float: left; 
   margin-left: 7rem;
 }
 
@@ -270,8 +270,8 @@ ul {
 }
 
 .big-line {
-  border: none; /* border'ın sadece üst  kısmını kullanmak için bunu kapatıp ..*/
-  border-top: 0.1rem solid white; /* bunu açacağız */
+  border: none; 
+  border-top: 0.1rem solid white; 
   border-radius: 1rem;
   margin-right: 3rem;
 }
@@ -291,7 +291,7 @@ ul {
   text-align: center;
 }
 
-/* Responsive tasarım */
+/* Responsive design */
 
 @media (min-width: 576px) {
   /* mobile */
