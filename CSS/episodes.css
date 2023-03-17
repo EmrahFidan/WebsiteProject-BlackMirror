@@ -39,7 +39,7 @@ nav {
 
 #logo-box .logo {
   color: #e21221;
-  font-weight: 700;
+  font-weight: 70rem;
   font-size: 2.5rem;
 }
 
@@ -77,8 +77,8 @@ a {
 
 #link-box .nav-link {
   color: #fff;
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 1.6rem;
+  font-weight: 40rem;
   display: block;
   padding-top: 1rem;
   letter-spacing: 0.1rem;
@@ -95,209 +95,195 @@ ul {
 
 /* contact */
 
-#contact {
+#content {
   background-color: #140152;
   height: auto;
-  padding-top: 125px;
-  padding-bottom: 75px;
+  padding-top: 12.5rem;
+  padding-bottom: 7.5rem;
 }
 
-.contact-box{
-  margin-bottom: 75px;
-  height: 210px;
-}
-.text-box{
-  margin-bottom: 75px;
+.contact-box {
+  margin-bottom: 7.5rem;
   height: auto;
+  width: auto;
 }
-.poster-box{
-  height: 330px;
-  border: 2px solid #a60b18;
-  border-radius: 50px;
-  padding: 20px 30px;
-  margin-top: 50px;
+.text-box {
+  margin-bottom: 7.5rem;
+  height: auto;
+  width: auto;
 }
-.img-poster-left{
-  float:left;
-  margin-right: 100px;
+.poster-box {
+  height: auto;
+  width: auto;
+  border: 0.2rem solid #a60b18;
+  border-radius: 5rem;
+  padding: 3rem 3rem 4rem 3rem;
+  margin-top: 5rem;
 }
-
-.img-poster-right{
-  float:right;
-   margin-left: 100px;
-}
-
-.img-double{
-  float: inline-start;
-   height: 210px;
-   width: 350px;
-   margin-left: 150px;
-}
-
-.img-right{
-   float:right;
-   margin-left: 50px;
-   height: 210px;
-   width: 350px;
-}
-
-.img-left{
+.img-poster-left {
   float: left;
-  margin-right: 50px;
-  height: 210px;
-   width: 350px;
+  margin-right: 10rem;
+  height: auto;
+  width: auto;
 }
-.text{
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 18px;
+
+.img-poster-right {
+  float: right;
+  margin-left: 10rem;
+  height: auto;
+  width: auto;
+}
+
+.img-double {
+  float: inline-start;
+  height: auto;
+  width: auto;
+  margin-left: 15rem;
+  margin-bottom: 2.5rem;
+}
+
+.img-right {
+  float: right;
+  margin-left: 7rem;
+  height: auto;
+  width: auto;
+  margin-bottom: 2.5rem;
+}
+
+.img-left {
+  float: left;
+  margin-right: 7rem;
+  height: auto;
+  width: auto;
+  margin-bottom: 2.5rem;
+}
+.text {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.8rem;
   color: white;
   text-align: justify;
   font-style: italic;
-  text-indent: 30px;
-  word-spacing: 1px;
+  text-indent: 3rem;
+  word-spacing: 0.1rem;
 }
-.text2{
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 18px;
+.text2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.8rem;
   color: white;
   text-align: justify;
   font-style: italic;
-  text-indent: 30px;
-  word-spacing: 1px;
+  text-indent: 3rem;
+  word-spacing: 0.1rem;
 }
-/* ilk harf */ 
-.text2::first-letter{
-  font-size: 36px;
+/* ilk harf */
+.text2::first-letter {
+  font-size: 3.6rem;
 }
-.link-page-end{
+.link-page-end {
   font-family: "Montserrat Alternates", sans-serif;
-  font-size: 18px;
+  font-size: 1.8rem;
   float: right;
   color: #e21221;
 }
 
 /* form */
 
-.big-fieldset{
-  padding: 5px 15px;
+.big-fieldset {
+  padding: 0.5rem 1.5rem;
 }
-.short-fieldset{
-  padding: 3px 9px;
+.short-fieldset {
+  padding: 0.3rem 0.9rem;
 }
 
-.big-legend{
+.big-legend {
   color: #e21221;
-  font-size: 20px;
+  font-size: 2rem;
   font-family: "Montserrat Alternates", sans-serif;
 }
 
-.short-legend{
+.short-legend {
   color: white;
-  font-size: 16px;
-  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.6rem;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .input1 {
   color: white;
-  font-size: 18px;
- }
-
- .name-input{
-  background-color: transparent;
-  border: 1px solid white;
-  height: 2.2rem;
-  color: white;
-  text-align: center;
- }
-
- .name-input::after{
-  background-color: transparent;
-  border: 1px solid white;
-  height: 2.2rem;
-  color: white;
-  text-align: center;
- }
-
- .radio-feel{
-  color: white;
-  margin-right: 0.2rem;
- }
- .radio{
-  color: white;
-  font-size: 14px;
-  margin-right: 1.5rem;
- }
-
- .selection-input{
-  background-color: white;
-  height: 2.5rem;
- }
-
- .send{
-  float: right;
-  padding: 8px 20px;
-  background-color:transparent;
-  border: 1px solid #e21221;
-  font-size: 14px;
-  border-radius: 20px;
-  color: white;
-  }
-.send:hover{
-    background-color: #e21221;
-    color: white;
+  font-size: 1.8rem;
 }
 
-.radio-right{
+.name-input {
+  background-color: transparent;
+  border: 0.1rem solid white;
+  height: 2.2rem;
   color: white;
-  font-size: 16px;
+  text-align: center;
+}
+
+.name-input::after {
+  background-color: transparent;
+  border: 0.1rem solid white;
+  height: 2.2rem;
+  color: white;
+  text-align: center;
+}
+
+.radio-feel {
+  color: white;
+  margin-right: 0.2rem;
+}
+.radio {
+  color: white;
+  font-size: 1.4rem;
+  margin-right: 1.5rem;
+}
+
+.selection-input {
+  background-color: white;
+  height: 2.5rem;
+}
+
+.send {
+  float: right;
+  padding: 0.8rem 2rem;
+  background-color: transparent;
+  border: 0.1rem solid #e21221;
+  font-size: 1.4rem;
+  border-radius: 2rem;
+  color: white;
+}
+.send:hover {
+  background-color: #e21221;
+  color: white;
+}
+
+.radio-right {
+  color: white;
+  font-size: 1.6rem;
   float: right;
   margin-right: 2.5rem;
- }
- .check-button{
-  float:right;
+}
+.check-button {
+  float: right;
   margin-right: 1rem;
   height: 2.2rem;
- }
+}
 
- .big-line {
+.big-line {
   border: none; /* border'ın sadece üst  kısmını kullanmak için bunu kapatıp ..*/
   border-top: 0.1rem solid white; /* bunu açacağız */
   border-radius: 1rem;
   margin-right: 3rem;
 }
 
+.content-link {
+  color: #e21221;
+}
+.content-link:hover {
+  color: white;
+}
 
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.copyright {
+#special-design {
   background-color: #04052e;
   padding-top: 1.2rem;
   padding-bottom: 1.2rem;
@@ -311,7 +297,7 @@ ul {
   /* mobile */
 
   .top-section {
-    max-width: 540px; /* max genişlik oalrak alabileceği değer */
+    max-width: 540px;
   }
 
   html {
